@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="716.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.thegreatshivam.ListController">
+   <center>
+      <TableView fx:id="tableView" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="idColumn" minWidth="100.0" prefWidth="100.0" text="ID" />
+          <TableColumn fx:id="nameColumn" minWidth="150.0" prefWidth="150.0" text="Name" />
+          <TableColumn fx:id="mobileColumn" minWidth="150.0" prefWidth="150.0" text="Mobile Number" />
+          <TableColumn fx:id="emailColumn" minWidth="300.0" prefWidth="300.0" text="Email Address" />
+        </columns>
+      </TableView>
+   </center>
+</BorderPane>
